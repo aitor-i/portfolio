@@ -1,0 +1,23 @@
+[
+  {
+    "SkillName": "JavaScript",
+    "description": "Proficient in JavaScript and related technologies such as Node.js and React.",
+    "link": "https://github.com/user/javascript-examples",
+    "dates": "2016 - present",
+    "key-words": []
+  },
+  {
+    "SkillName": "Python",
+    "description": "Experienced in Python development for web and data science applications.",
+    "link": "https://github.com/user/python-examples",
+    "dates": "2014 - present",
+    "key-words": []
+  },
+  {
+    "SkillName": "CSS",
+    "description": "Skilled in designing and implementing responsive user interfaces with CSS and related frameworks.",
+    "link": "https://github.com/user/css-examples",
+    "dates": "2015 - present",
+    "key-words": []
+  }
+]
