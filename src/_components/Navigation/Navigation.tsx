@@ -1,0 +1,22 @@
+import Link from "next/link";
+
+import styles from "./Navigation.module.css";
+
+export const Navigation = () => {
+  return (
+    <nav className={styles.navigationContainer}>
+      <Link className={styles.link} href={"/"}>
+        HOME
+      </Link>
+      <Link className={styles.link} href={"/about"}>
+        ABOUT
+      </Link>
+      <Link className={styles.link} href={"/skills"}>
+        SKILLS
+      </Link>
+      <Link className={styles.link} href={"/projects"}>
+        PROJECTS
+      </Link>
+    </nav>
+  );
+};
