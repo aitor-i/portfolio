@@ -1,0 +1,10 @@
+.title {
+  padding: 0 10rem 0 5rem;
+  font-size: 8rem;
+}
+
+.navigationContainer {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
