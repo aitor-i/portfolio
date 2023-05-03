@@ -1,0 +1,21 @@
+.jobsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 35%;
+  padding-left: 5rem;
+}
+.role {
+  border-bottom: 1px solid;
+  width: fit-content;
+  font-size: 2rem;
+}
+.dates {
+  font-size: 0.8rem;
+}
+.description {
+  text-indent: 1rem;
+  text-align: justify;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
