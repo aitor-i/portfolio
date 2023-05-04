@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Ibarra Photography",
+    "git-link": "https://github.com/ibarra-photography",
+    "link": "https://ibarraphoto.me/",
+    "description": "MERN-Stack project. The frontend is developed with next and deployed on firebase, the backend is build with node and express and deployed on heroku, finally the database works with mongoDB, and it is deployed on mongo's servers."
+  }
+]
