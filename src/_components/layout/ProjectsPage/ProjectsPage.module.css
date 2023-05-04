@@ -1,0 +1,14 @@
+.title {
+  padding: 0 10rem 0 5rem;
+  font-size: 8rem;
+  padding-bottom: 4rem;
+}
+.navigationContainer {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.projectContainer {
+  padding: 0 2rem;
+}
