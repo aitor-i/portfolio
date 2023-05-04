@@ -17,6 +17,9 @@ export const Navigation = () => {
       <Link className={styles.link} href={"/projects"}>
         PROJECTS
       </Link>
+      <Link className={styles.link} href={"/contact-me"}>
+        CONTACT ME
+      </Link>
     </nav>
   );
 };
