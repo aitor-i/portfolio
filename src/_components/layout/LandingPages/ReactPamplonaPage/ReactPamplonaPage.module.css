@@ -25,3 +25,36 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+@media only screen and (min-width: 768px) {
+  .navigationContainer {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  .container {
+    padding-top: 5rem;
+    display: flex;
+  }
+  .headers {
+    padding-left: 4rem;
+    flex: 2;
+  }
+  .title {
+    font-size: 12rem;
+    line-height: 11rem;
+    padding-bottom: 2rem;
+  }
+  .subtitle {
+    font-size: 3rem;
+  }
+  .textContainer {
+    flex: 1;
+    padding-top: 2rem;
+    padding-right: 4rem;
+  }
+  .text {
+    text-indent: 1rem;
+    font-size: 1.55rem;
+  }
+}
