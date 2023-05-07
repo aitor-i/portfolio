@@ -2,7 +2,15 @@
   "name": "Aitor Ibarra",
   "profile": "Developer",
   "location": "Pamplona, Spain",
-  "skills": ["React", "Next Js", "Type Script", "Testing"],
+  "skills": [
+    "React",
+    "Next Js",
+    "Type Script",
+    "Testing",
+    "Pamplona",
+    "Aitor Ibarra",
+    "Developer"
+  ],
   "experience": "I have years of experience in building dynamic and responsive web applications using React, Next Js, and Type Script.",
   "strengths": [
     "I have a deep knowledge of testing methodologies and tools.",
