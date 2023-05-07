@@ -1,0 +1,27 @@
+.navigationContainer {
+  gap: 0.1rem;
+  font-size: 1.2rem;
+}
+.text {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+.location {
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.socialMediaContainer {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contact {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
