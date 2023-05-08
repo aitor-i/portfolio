@@ -33,3 +33,15 @@
     ); /* Move the element back to its original position */
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .title {
+    padding-top: 15rem;
+    font-size: 7rem;
+  }
+
+  .subtitle {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}
