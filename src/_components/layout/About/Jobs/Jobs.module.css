@@ -19,3 +19,19 @@
   font-size: 0.8rem;
   font-weight: 200;
 }
+
+@media only screen and (max-width: 767px) {
+  .jobsContainer {
+    width: 100%;
+  }
+  .role {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .dates {
+    font-size: 1.5rem;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+}
