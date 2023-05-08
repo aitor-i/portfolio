@@ -25,3 +25,20 @@
 .link:hover {
   color: #146c94;
 }
+
+@media only screen and (max-width: 767px) {
+  .title {
+    padding-top: 2rem;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+  .projectContainer {
+    width: 100%;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+  .link {
+    font-size: 1.5rem;
+  }
+}
