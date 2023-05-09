@@ -4,6 +4,7 @@ import SocialMedia from "./SocialMedia";
 import styles from "./ContactMePage.module.css";
 
 import text from "domain/texts/ContactMe/contactMe.json";
+import Link from "next/link";
 
 export const ContactMePage = () => {
   return (
@@ -14,7 +15,12 @@ export const ContactMePage = () => {
       </div>
       <div className={styles.container}>
         <p className={styles.description}>{text.contact.description}</p>
-        <p className={styles.email}>{text.contact.contactInfo[0].value}</p>
+        <Link
+          className={styles.email}
+          href={`mailto: ${text.contact.contactInfo[0].value}`}
+        >
+          {text.contact.contactInfo[0].value}
+        </Link>
         <SocialMedia />
       </div>
     </main>
