@@ -17,7 +17,7 @@ export const SkillCard = ({
   link,
 }: Props) => {
   return (
-    <div className={styles.skillCard}>
+    <Link href={`/skills/${SkillName}`} className={styles.skillCard}>
       <h3 className={styles.skillName}>{SkillName}</h3>
       <i className={styles.dates}>{dates}</i>
       <p className={styles.description}>{description}</p>
@@ -30,6 +30,6 @@ export const SkillCard = ({
           </samp>
         ))}
       </div>
-    </div>
+    </Link>
   );
 };
