@@ -1,6 +1,7 @@
+import SkillDescriptionPage from "_components/layout/SkillDescriptionPage";
 interface IParams {
   params: { skillName: string };
 }
 export default function SkillDescription({ params }: IParams) {
-  return <p>{params.skillName}</p>;
+  return <SkillDescriptionPage skillName={params.skillName} />;
 }
