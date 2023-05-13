@@ -1,5 +1,13 @@
 {
-  "cSpell.words": ["Aitor", "Ibarra", "Kanban", "LINQ", "Mediat", "MERN"],
+  "cSpell.words": [
+    "Academind",
+    "Aitor",
+    "Ibarra",
+    "Kanban",
+    "LINQ",
+    "Mediat",
+    "MERN"
+  ],
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true
 }
