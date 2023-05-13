@@ -3,3 +3,23 @@
   font-size: 6rem;
   padding-bottom: 2rem;
 }
+
+.subtitle {
+  font-size: 3rem;
+}
+.description {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.fieldsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.backButton {
+  position: absolute;
+  font-size: 1.5rem;
+  bottom: 2.5rem;
+  right: 3.5rem;
+}
