@@ -10,6 +10,7 @@
 .description {
   font-size: 1.2rem;
   font-weight: 300;
+  font-style: italic;
 }
 .fieldsContainer {
   display: flex;
@@ -22,4 +23,28 @@
   font-size: 1.5rem;
   bottom: 2.5rem;
   right: 3.5rem;
+}
+
+@media only screen and (min-width: 767px) {
+  .navigationContainer {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .title {
+    padding: 3rem 10rem 3rem 5rem;
+    font-size: 8rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding-left: 3rem;
+    font-weight: 200;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    padding-left: 3rem;
+  }
 }

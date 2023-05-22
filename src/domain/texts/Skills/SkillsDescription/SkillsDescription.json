@@ -12,92 +12,100 @@
   {
     "SkillName": "React",
     "description": "Experienced in React development for web. Proficient on server-side rendering",
-    "link": "https://github.com/user/python-examples",
-    "dates": "2020 - present",
-    "key-words": ["Recoil", "Redux", "Hooks"]
+    "workExperience": ["Biko2 - Pamplona", "Innovation Strategies (Remote)"],
+    "projects": ["Ibarra Photo"],
+    "certificates": [
+      "React the complete guide - Academind",
+      "Epic React - Kent C. Dodds",
+      "React, NodeJS, Express & MongoDB - The MERN stack - Academind"
+    ]
   },
   {
     "SkillName": "CSS",
     "description": "Skilled in designing and implementing responsive user interfaces with CSS and related frameworks.",
-    "link": "https://github.com/user/css-examples",
-    "dates": "2019 - present",
+    "workExperience": ["Biko2 - Pamplona", "Innovation Strategies (Remote)"],
+    "projects": ["Ibarra Photo"],
     "key-words": ["Module-CSS", "Styled-Components", "SAS"]
   },
   {
     "SkillName": "Node.js",
     "description": "Experienced in server-side JavaScript development using Node.js and related technologies such as Express and MongoDB.",
-    "link": "https://github.com/user/node-examples",
-    "dates": "2022 - present",
-    "key-words": ["JavaScript", "server-side", "Express", "MongoDB", "API-Rest"]
+    "workExperience": ["Biko2 - Pamplona"],
+    "projects": ["Ibarra Photo"],
+    "certificates": [
+      "NodeJs the complete guide - Academind",
+      "React, NodeJS, Express & MongoDB - The MERN stack - Academind"
+    ]
   },
   {
     "SkillName": "TypeScript",
     "description": "Proficient in TypeScript for writing scalable and maintainable web applications.",
-    "link": "https://github.com/user/typescript-examples",
-    "dates": "2021 - present",
-    "key-words": ["TypeScript", "scalable", "maintainable"]
+    "workExperience": ["Biko2 - Pamplona", "Innovation Strategies (Remote)"],
+    "projects": ["Ibarra Photo"],
+    "certificates": ["Understanding Typescript - Academind"]
   },
   {
     "SkillName": "Next.js",
     "description": "Skilled in building fast and dynamic web applications using Next.js and related technologies such as React and GraphQL.",
-    "link": "https://github.com/user/nextjs-examples",
-    "dates": "2022 - present",
-    "key-words": ["Next.js", "React", "server-side"]
+    "workExperience": ["Biko2 - Pamplona", "Innovation Strategies (Remote)"],
+    "projects": ["Ibarra Photo"],
+    "certificates": ["NextJS & ReactJs the complete guide - Academind"]
   },
   {
     "SkillName": ".NET",
     "description": "Proficient in using .NET Framework for REST API applications development.",
-    "link": "https://github.com/user/dotnet-examples",
-    "dates": "2022 - present",
-    "key-words": [".NET", "Windows", "web applications", "API-Rest"]
+    "workExperience": ["Innovation Strategies (Remote)"],
+    "projects": [],
+    "certificates": []
   },
   {
     "SkillName": "C#",
     "description": "Experienced in writing maintainable and scalable code using C# language for web applications.",
-    "link": "https://github.com/user/csharp-examples",
-    "dates": "2022 - present",
-    "key-words": [
-      "C#",
-      "maintainable",
-      "scalable",
-      "Windows",
-      "web applications"
-    ]
+    "workExperience": ["Innovation Strategies (Remote)"],
+    "projects": [],
+    "certificates": []
   },
   {
     "SkillName": "Jest",
     "description": "Skilled in writing and running tests using Jest for JavaScript applications.",
-    "link": "https://github.com/user/jest-examples",
-    "dates": "2021 - present",
-    "key-words": ["Jest", "tests", "JavaScript"]
+    "workExperience": ["Biko2 - Pamplona"],
+    "projects": ["Ibarra Photo"],
+    "certificates": ["Javascript unit testing, the practical guide - Academind"]
   },
   {
     "SkillName": "Cypress",
     "description": "Proficient in using Cypress for end-to-end testing of web applications.",
-    "link": "https://github.com/user/cypress-examples",
-    "dates": "2022 - present",
-    "key-words": ["Cypress", "end-to-end testing", "web applications"]
+    "workExperience": [],
+    "projects": [],
+    "certificates": ["Cypress End-to-End testing, getting started - Academind"]
   },
   {
     "SkillName": "Express",
     "description": "Experienced in building scalable and efficient server-side applications using Express and related technologies such as Node.js and MongoDB.",
-    "link": "https://github.com/user/express-examples",
-    "dates": "2021 - present",
-    "key-words": ["Express", "server-side", "Node.js", "MongoDB"]
+    "workExperience": ["Biko2 - Pamplona"],
+    "projects": ["Ibarra Photo"],
+    "certificates": [
+      "NodeJs the complete guide - Academind",
+      "React, NodeJS, Express & MongoDB - The MERN stack - Academind"
+    ]
   },
   {
     "SkillName": "MongoDB",
     "description": "Proficient in using MongoDB for data storage and management in web applications.",
-    "link": "https://github.com/user/mongodb-examples",
-    "dates": "2022 - present",
-    "key-words": ["MongoDB", "data storage", "web applications"]
+    "workExperience": ["Biko2 - Pamplona"],
+    "projects": ["Ibarra Photo"],
+    "certificates": [
+      "NodeJs the complete guide - Academind",
+      "React, NodeJS, Express & MongoDB - The MERN stack - Academind",
+      "MongoDB the complete Developers guide"
+    ]
   },
   {
     "SkillName": "SQL",
     "description": "Experienced in using SQL for relational database management and querying.",
-    "link": "https://github.com/user/sql-examples",
-    "dates": "2023 - present",
-    "key-words": ["SQL", "relational database", "querying"]
+    "workExperience": ["Innovation Strategies (Remote)"],
+    "projects": [],
+    "certificates": []
   },
   {
     "SkillName": "LINQ",
