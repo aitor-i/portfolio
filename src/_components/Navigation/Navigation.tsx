@@ -2,6 +2,10 @@ import Link from "next/link";
 
 import styles from "./Navigation.module.css";
 
+interface Props {
+  page: string;
+}
+
 export const Navigation = () => {
   return (
     <nav className={styles.navigationContainer}>
