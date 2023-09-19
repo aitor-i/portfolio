@@ -23,7 +23,7 @@ export const SkillDescriptionPage = ({ skillName }: Props) => {
       <div className={styles.fieldsContainer}>
         <div>
           <h2 className={styles.subtitle}>Work Experience</h2>
-          {skillDescription.workExperience?.map((experience) => (
+          {skillDescription?.workExperience?.map((experience) => (
             <p key={experience} className={styles.description}>
               {experience}
             </p>
@@ -31,7 +31,7 @@ export const SkillDescriptionPage = ({ skillName }: Props) => {
         </div>
         <div>
           <h2 className={styles.subtitle}>Projects</h2>
-          {skillDescription.projects?.map((project) => (
+          {skillDescription?.projects?.map((project) => (
             <p key={project} className={styles.description}>
               {project}
             </p>
@@ -40,7 +40,7 @@ export const SkillDescriptionPage = ({ skillName }: Props) => {
 
         <div>
           <h2 className={styles.subtitle}>Certificates</h2>
-          {skillDescription.certificates?.map((certificate) => (
+          {skillDescription?.certificates?.map((certificate) => (
             <p key={certificate} className={styles.description}>
               {certificate}
             </p>
