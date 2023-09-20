@@ -10,7 +10,18 @@
 }
 
 .active {
-  color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.active::after {
+  content: " ";
+  top: 2px;
+  height: 2px;
+  width: 100%;
+  background-color: #f2f2f2;
+  animation: 0.3s progressive-line ease;
+  border-radius: 5px;
 }
 
 .link:hover::after {

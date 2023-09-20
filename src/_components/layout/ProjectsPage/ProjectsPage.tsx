@@ -10,7 +10,7 @@ export const ProjectsPage = () => {
     <main>
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.navigationContainer}>
-        <Navigation />
+        <Navigation page="projects" />
       </div>
       <div className={styles.projectContainer}>
         {projects.map((project) => (

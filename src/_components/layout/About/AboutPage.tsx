@@ -9,7 +9,7 @@ export const AboutPage = () => {
     <main>
       <h1 className={styles.title}>{text.title}</h1>
       <div className={styles.navigationContainer}>
-        <Navigation />
+        <Navigation page="about" />
       </div>
       <div className={styles.jobsContainer}>
         {text.experience.map((experience) => (

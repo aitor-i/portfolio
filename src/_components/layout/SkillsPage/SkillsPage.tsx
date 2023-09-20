@@ -18,7 +18,7 @@ export const SkillsPage = () => {
     <main>
       <h1 className={styles.title}>Skills</h1>
       <div className={styles.navigationContainer}>
-        <Navigation />
+        <Navigation page="skills" />
       </div>
       <div className={styles.searchContainer}>
         <input

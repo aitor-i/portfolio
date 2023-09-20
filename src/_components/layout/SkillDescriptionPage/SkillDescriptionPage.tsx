@@ -17,7 +17,7 @@ export const SkillDescriptionPage = ({ skillName }: Props) => {
   return (
     <main>
       <div className={styles.navigationContainer}>
-        <Navigation />
+        <Navigation page="skills" />
       </div>
       <h1 className={styles.title}>{skillName}</h1>
       <div className={styles.fieldsContainer}>

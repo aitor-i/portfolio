@@ -11,7 +11,7 @@ export const ContactMePage = () => {
     <main>
       <h1 className={styles.title}>{text.contact.title}</h1>
       <div className={styles.navigationContainer}>
-        <Navigation />
+        <Navigation page="contact-me" />
       </div>
       <div className={styles.container}>
         <p className={styles.description}>{text.contact.description}</p>

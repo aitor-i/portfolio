@@ -9,7 +9,7 @@ export const HomePage = () => {
   return (
     <main className={styles.homePageContainer}>
       <div className={styles.navigationContainer}>
-        <Navigation />
+        <Navigation page="home" />
       </div>
       <h1 className={styles.title}>{text.title}</h1>
       <h2 className={styles.subtitle}>{text.subtitle}</h2>
