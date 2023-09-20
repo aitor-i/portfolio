@@ -12,7 +12,7 @@ export const ReactPamplonaPage = () => {
     <main>
       <div className={styles.container}>
         <div className={styles.navigationContainer}>
-          <Navigation />
+          <Navigation page="home" />
         </div>
         <div className={styles.headers}>
           <h1 className={styles.title}>{text.name}</h1>
