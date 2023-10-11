@@ -4,3 +4,16 @@
   justify-content: center;
   gap: 3rem;
 }
+.socialMediaLink:hover {
+  scale: 1.0999999999;
+  animation: 0.1s make-bigger ease;
+}
+
+@keyframes make-bigger {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.07;
+  }
+}
