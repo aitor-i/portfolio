@@ -7,7 +7,7 @@ import electricidad from '@/../public/irati.jpg'
 
 export default function page() {
   return (
-    <section className="px-4 " >
+    <section className="px-4 md:px-8 " >
       <h1 className="text-5xl md:text-6xl">Projects</h1>
       <div className="grid gap-4 grid-cols-1 md:grid-cols-3 py-4 md:py-8">
         <Card
@@ -41,7 +41,7 @@ export default function page() {
         <Card
           url="https://irati-electricidad.vercel.app/"
           tags="#next"
-          description="Instalaciones eléctricas en general. Instalaciones de redes telegráficas, telefónicas, telefonía sin hilos y televisión."
+          description="Instalaciones eléctricas en general."
           title="Irati electricidad"
           image={electricidad}
         />
