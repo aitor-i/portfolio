@@ -12,7 +12,7 @@ interface Props {
 
 export default function Card({ title, url, tags, description, image }: Props) {
   return (
-    <Link href={url} className='border rounded aspect-auto md:aspect-video'>
+    <Link href={url} className='border bg-gray-800 rounded aspect-auto md:aspect-video'>
       <Image
         alt="Furniture 1"
         className="w-full h-48 object-cover"
