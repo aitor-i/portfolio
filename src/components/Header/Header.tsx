@@ -7,7 +7,7 @@ export default function Header() {
         <Link href={"/"}>Aitor Ibarra</Link>
       </span>
       <Link className="col-start-7" href={"/projects"}>Projects</Link>
-      <Link className="col-start-8" href={"/"}>Blog</Link>
+      <Link className="col-start-8" href={"/blog"}>Blog</Link>
     </nav>
   )
 }
