@@ -1,23 +1,23 @@
 import React from 'react'
-import Image from 'next/image'
-import elDormitorio from '@/../public/el-dormitorio.jpg'
+import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
 
 interface Props {
   title: string
   description: string
   tags: string
-  link: string
+  image: StaticImageData
+  url: string
 }
 
-export default function Card({ title, link, tags, description }: Props) {
+export default function Card({ title, url, tags, description, image }: Props) {
   return (
-    <Link href={link} className='border rounded aspect-auto md:aspect-video'>
+    <Link href={url} className='border rounded aspect-auto md:aspect-video'>
       <Image
         alt="Furniture 1"
         className="w-full h-48 object-cover"
         height="200"
-        src={elDormitorio}
+        src={image}
         style={{
           aspectRatio: "200/200",
           objectFit: "cover",
@@ -29,6 +29,6 @@ export default function Card({ title, link, tags, description }: Props) {
         <p>{description}</p>
         <code>{tags}</code>
       </div>
-    </Link>
+    </Link >
   )
 }
