@@ -6,6 +6,7 @@ export default function Header() {
       <span>
         <Link href={"/"}>Aitor Ibarra</Link>
       </span>
+      <Link className="col-start-6" href={"/about"}>About</Link>
       <Link className="col-start-7" href={"/projects"}>Projects</Link>
       <Link className="col-start-8" href={"/blog"}>Blog</Link>
     </nav>
