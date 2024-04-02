@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: "Aitor Ibarra - Developer",
   description: "Web developer expert in Next and front end technologies",
   keywords: ["React", "Aitor", "Ibarra", "Developer", "Next", "TypeScript", "Node", "Mongo"],
-  icons: [{ href: "./sudno.png", url: "./sudno.png" }]
 };
 
 export default function RootLayout({
