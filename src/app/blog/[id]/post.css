@@ -1,0 +1,23 @@
+body {
+  line-height: 1.6;
+}
+h1, h2 {
+  font-size: 1.7rem;
+}
+section{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+code {
+  color: #f4f4f4;
+  background-color: #020202;
+  padding: 2px 4px;
+  border-radius: 4px;
+  overflow-x: scroll;
+}
+pre {
+  background-color: #020202;
+  border-radius: 4px;
+  padding: 10px;
+  overflow-x: scroll;
+}
