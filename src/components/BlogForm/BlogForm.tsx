@@ -1,14 +1,19 @@
 'use client'
 
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Input } from "@/components/ui/input"
 import { Textarea } from '../ui/textarea'
 import { Button } from "@/components/ui/button"
 import { postBlog } from '@/server-actions/blog/blog'
+import { useCookies } from 'react-cookie'
+import { validateToken } from '@/server-actions/login/login'
+import { useRouter } from 'next/navigation'
+import { getCookie } from '@/utils/getCookie'
 
 export function BlogForm() {
 
   const formRef = useRef<HTMLFormElement>(null)
+  const router = useRouter()
 
   const onSubmitHandler = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -22,11 +27,19 @@ export function BlogForm() {
 
 
     const res = await postBlog(title, post)
-
-    console.log(res.acknowledged)
+    console.log(res)
 
   }
 
+  const cookienValidation = async () => {
+    const token = getCookie('ai') ?? ''
+    const isTokenValid = await validateToken(token)
+    if (!isTokenValid) router.push("/login")
+  }
+
+  useEffect(() => {
+    cookienValidation()
+  }, [])
 
   return (
     <div className="mt-8">
