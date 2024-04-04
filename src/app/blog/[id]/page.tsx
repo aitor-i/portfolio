@@ -1,15 +1,27 @@
 import { getBlog } from "@/server-actions/blog/blog"
 import './post.css'
+import { notFound } from "next/navigation"
 
 interface Props {
   params: {
     id: string
   }
 }
+export async function generateMetadata({ params }: Props) {
+
+  const post = await getBlog(params.id)
+  if (!post) notFound();
+  return {
+    title: `${post.title} - Aitor Ibarra's blog`,
+    description: post.title,
+    keywords: ["Aitor Ibarra", "Developer", "React", post.date.toDateString(), "Rust", "NextJS", "Docker"],
+  };
+}
 
 export default async function page({ params }: Props) {
   const post = await getBlog(params.id)
   const postDate = new Date(post?.date as Date)
+
   return (
     <div className="min-h-screen ">
       <article className="bg-gray-50 py-12 md:py-24 text-gray-950 px-4 md:px-48">
