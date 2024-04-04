@@ -3,7 +3,7 @@ import { ObjectId } from 'mongodb';
 import { getPointer, getMongoClinet } from './../mongodb/mongoClient'
 import { revalidatePath } from 'next/cache';
 import { cookies } from 'next/headers';
-import { redirect } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import Token from '../utils/token';
 
 export interface BlogPost {
@@ -45,7 +45,7 @@ export async function getBlog(id: string) {
 
   } catch (error: Error | unknown) {
     console.log(Error.toString());
-    throw new Error("Erro geting post");
+    notFound()
 
   } finally {
     setTimeout(async () => {
