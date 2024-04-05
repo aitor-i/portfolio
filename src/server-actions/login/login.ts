@@ -98,7 +98,9 @@ export async function login(username: string, password: string) {
         name: "ai",
         value: token,
         httpOnly: true,
-        path: "/dashboard"
+        path: "/",
+        domain: "www.aitoribarra.com",
+        secure: true
       })
     }
 
