@@ -6,7 +6,7 @@ export default async function page() {
   const posts = await getBlogs()
   return (
     <section className="px-4 md:px-8 h-screen" >
-      <h1 className="text-5xl md:text-6xl">Coming Soon</h1>
+      <h1 className="text-5xl md:text-6xl">Blog</h1>
       <div className="grid gap-4 grid-cols-1  py-4 md:py-8">
         {posts.map(post =>
 
