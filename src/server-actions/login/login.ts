@@ -70,6 +70,7 @@ export async function getUsers() {
 }
 
 export async function validateToken(token: string) {
+  console.log("Token:", token)
   const tokenObject = new Token()
   const isValid = tokenObject.isValidToken(token)
   return isValid

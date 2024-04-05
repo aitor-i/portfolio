@@ -1,6 +1,7 @@
 export function getCookie(name: string) {
   let nameEQ = name + "=";
   let ca = document.cookie.split(';');
+  console.log("Cookies", ca)
 
   for (let i = 0; i < ca.length; i++) {
     let c = ca[i];
