@@ -96,7 +96,7 @@ export async function login(username: string, password: string) {
       cookies().set({
         name: "ai",
         value: token,
-        httpOnly: httpOnly,
+        httpOnly: false,
         path: "/dashboard"
       })
     }
