@@ -1,6 +1,17 @@
+import { getBlogs } from '@/server-actions/blog/blog'
 import { MetadataRoute } from 'next'
 
-export default function sitemap(): MetadataRoute.Sitemap {
+const generateBlogPostsSitemapObjects = async () => {
+  const posts = await getBlogs()
+  return posts.map(posts => {
+    return {
+      slug: posts._id,
+      updatedAt: new Date()
+    }
+  })
+}
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     {
       url: 'https://www.aitoribarra.com/',
@@ -20,5 +31,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
     },
+    ...(await generateBlogPostsSitemapObjects()).map((post) => {
+      return {
+        url: `https://www.aitoribarra.com/blog/${post.slug}`,
+        lastModified: new Date(),
+      }
+    })
   ]
 }
