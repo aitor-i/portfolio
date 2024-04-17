@@ -77,6 +77,7 @@ export async function postBlog(title: string, post: string) {
     const res = await pointer.insertOne(newPost)
     revalidatePath("/blog")
     revalidatePath("/dashboard")
+    revalidatePath("/sitemap.xml")
     return res
 
   } catch (error: Error | unknown) {
