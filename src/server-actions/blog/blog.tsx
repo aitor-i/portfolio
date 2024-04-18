@@ -101,6 +101,8 @@ export async function deletePost(id: ObjectId) {
     console.log(id)
     const res = await pointer.deleteOne({ _id: new ObjectId(id) })
     revalidatePath("/dashboard")
+    revalidatePath("/blog")
+    revalidatePath("/sitemap.xml")
     return res
 
   } catch (error: Error | unknown) {
