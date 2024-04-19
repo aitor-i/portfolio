@@ -7,6 +7,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <p>© 2024 Aitor Ibarra. All rights reserved.</p>
           <Link href={"/dashboard"}>Dashboard</Link>
+          <Link href={"/skills"}>Skills</Link>
         </div>
         <div className="space-x-4">
           <Link href="mailto:contact@aitoribarra.com">
