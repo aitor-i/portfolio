@@ -17,7 +17,7 @@ export default function page({ params }: Props) {
       <article className="bg-gray-50 flex-col flex gap-4 min-h-screen py-12 md:py-24 text-gray-950 px-4 md:px-48">
         <h1 className="text-4xl pt-12 md:text-6xl font-semibold md:pt-24 ">{skill?.SkillName}</h1>
         <i className="text-gray-500">{skill?.dates}</i>
-        {hasKeyWords && skill['key-words']?.map(word => <p className='font-bold'>#{word}</p>)
+        {hasKeyWords && skill['key-words']?.map(word => <p key={word} className='font-bold'>#{word}</p>)
         }
         <div className="pt-12 md:pt-24">
           <p>{skill?.description}</p>
@@ -25,7 +25,7 @@ export default function page({ params }: Props) {
         {skill?.workExperience && <div>
           <h2 className='text-2xl font-bold'>Work experience</h2>
           {skill.workExperience?.map(experience =>
-            <p className='font-light'>
+            <p key={experience} className='font-light'>
               {experience}
             </p>
           )}
@@ -36,7 +36,7 @@ export default function page({ params }: Props) {
             <h2 className='text-2xl font-bold'>Projects</h2>
             {
               skill?.projects?.map(project =>
-                <p className='font-light'>
+                <p key={project} className='font-light'>
                   {project}
                 </p>)
             }
@@ -46,7 +46,7 @@ export default function page({ params }: Props) {
           <h2 className='text-2xl font-bold'>Certificates</h2>
           {
             skill?.certificates?.map(certiificate =>
-              <p className='font-light'>
+              <p key={certiificate} className='font-light'>
                 {certiificate}
               </p>)
           }
