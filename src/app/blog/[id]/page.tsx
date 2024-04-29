@@ -1,4 +1,4 @@
-import { getBlog } from "@/server-actions/blog/blog"
+import { getBlog, getBlogs } from "@/server-actions/blog/blog"
 import './post.css'
 import { notFound } from "next/navigation"
 
@@ -16,6 +16,12 @@ export async function generateMetadata({ params }: Props) {
     description: post.title,
     keywords: ["Aitor Ibarra", "Developer", "React", post.date.toDateString(), "Rust", "NextJS", "Docker"],
   };
+}
+
+export async function generateStaticParams() {
+  const posts = await getBlogs()
+  return posts.map(post => post._id)
+
 }
 
 export default async function page({ params }: Props) {
